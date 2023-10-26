@@ -1,0 +1,2 @@
+# BlackJack
+Ruby tutorial project
