@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
+# class Card
+#
+#
 class Card
-  attr_accessor :face, :suit, :value
+  attr_reader :face, :suit, :value
+
   def initialize(face, suit)
     @face = face
     @suit = suit
@@ -9,7 +13,6 @@ class Card
   end
 
   def to_s
-    super
     "#{face} of #{suit}"
   end
 
